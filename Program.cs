@@ -9,7 +9,7 @@
 
            
             veunsGravity = 0.78;
-            marsGravity = 0.38;
+            marsGravity = 0.39;
             jupiterGravity = 2.65;
             saturnGravity = 1.17;
             uranusGravity = 1.05;
@@ -26,29 +26,29 @@
 
             if (planet == "venus".ToLower() || planet == "1")
             {
-                Console.WriteLine("Your wight would be " + (weight * veunsGravity) + "pounds on that planet.");
+                Console.WriteLine("Your wight would be " + (weight * veunsGravity) + " pounds on that planet.");
             }
             else if (planet == "mars".ToLower() || planet == "2")
             {
-                Console.WriteLine("Your wight would be " + (weight * marsGravity) + "pounds on that planet.");
+                Console.WriteLine("Your wight would be " + (weight * marsGravity) + " pounds on that planet.");
             }
-            else if (planet == "Jupiter" || planet == "3")
+            else if (planet == "Jupiter".ToLower() || planet == "3")
             {
-                Console.WriteLine("Your wight would be " + (weight * jupiterGravity) + "pounds on that planet.");
+                Console.WriteLine("Your wight would be " + (weight * jupiterGravity) + " pounds on that planet.");
             }
-            else if (planet == "Saturn" || planet == "4")
+            else if (planet == "Saturn".ToLower() || planet == "4")
             {
-                Console.WriteLine("Your wight would be " + (weight * saturnGravity) + "pounds on that planet.");
+                Console.WriteLine("Your wight would be " + (weight * saturnGravity) + " pounds on that planet.");
             }
-            else if (planet == "Uranus" || planet == "5")
+            else if (planet == "Uranus".ToLower() || planet == "5")
             {
-                Console.WriteLine("Your wight would be " + (weight * uranusGravity) + "pounds on that planet.");
+                Console.WriteLine("Your wight would be " + (weight * uranusGravity) + " pounds on that planet.");
             }
-            else if (planet == "Neptune" || planet == "6")
+            else if (planet == "Neptune".ToLower() || planet == "6")
             {
-                Console.WriteLine("Your wight would be " + (weight * neptuneGravity) + "pounds on that planet.");
+                Console.WriteLine("Your wight would be " + (weight * neptuneGravity) + " pounds on that planet.");
             }
-            Console.WriteLine("Your wight would be " + weight + "pounds on that planet." );
+           
 
         }
 
